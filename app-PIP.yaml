@@ -2,9 +2,9 @@ runtime: python37
 
 env_variables:
   CLOUD_SQL_USERNAME: surabhi
-  CLOUD_SQL_PASSWORD: 12345
-  CLOUD_SQL_DATABASE_NAME: test-db
-  CLOUD_SQL_CONNECTION_NAME: flaskproject-341104:us-central1:test-instance
+  CLOUD_SQL_PASSWORD: 1234
+  CLOUD_SQL_DATABASE_NAME: user-db
+  CLOUD_SQL_CONNECTION_NAME: flaskproject-341104:us-central1:test
 
 vpc_access_connector:
   name: "projects/youtube-demo-255723/locations/us-central1/connectors/connect-to-sql"
