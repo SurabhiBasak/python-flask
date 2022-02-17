@@ -1,7 +1,7 @@
 import os 
 
 from flask import Flask, jsonify, request, redirect, url_for, render_template
-from flask_sqlalchemy import SQLAlchemy
+
 import pymysql
 
 db_user= os.environ.get('CLOUD_SQL_USERNAME')
